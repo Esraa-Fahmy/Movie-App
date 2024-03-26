@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 .App {
   text-align: center;
 }
@@ -6,7 +9,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.text-uppercase{
+  color: white;
+}
+.text-capitalize{
+  color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
